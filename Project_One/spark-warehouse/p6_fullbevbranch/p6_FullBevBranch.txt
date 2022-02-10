@@ -1,0 +1,600 @@
+Special_Lite,Branch6,1,NYC
+MED_LATTE,Branch2,1,Houston
+Triple_cappuccino,Branch9,1,Chicago
+ICY_LATTE,Branch5,1,Phoenix
+SMALL_Espresso,Branch1,1,Dallas
+Double_cappuccino,Branch6,2,NYC
+LARGE_Espresso,Branch2,2,Houston
+Mild_Espresso,Branch9,2,Chicago
+Cold_cappuccino,Branch5,2,Phoenix
+Special_Coffee,Branch1,2,Dallas
+MED_Coffee,Branch6,3,NYC
+Triple_LATTE,Branch2,3,Houston
+ICY_Coffee,Branch9,3,Chicago
+SMALL_Lite,Branch5,3,Phoenix
+Double_Espresso,Branch1,3,Dallas
+LARGE_Lite,Branch6,4,NYC
+Mild_Lite,Branch2,4,Houston
+Cold_Espresso,Branch9,4,Chicago
+Special_MOCHA,Branch5,4,Phoenix
+MED_MOCHA,Branch1,4,Dallas
+Triple_Coffee,Branch6,5,NYC
+ICY_MOCHA,Branch2,5,Houston
+SMALL_cappuccino,Branch9,5,Chicago
+Double_Lite,Branch5,5,Phoenix
+LARGE_cappuccino,Branch1,5,Dallas
+Mild_cappuccino,Branch6,6,NYC
+Cold_Lite,Branch2,6,Houston
+Special_cappuccino,Branch9,6,Chicago
+MED_cappuccino,Branch5,6,Phoenix
+Triple_MOCHA,Branch1,6,Dallas
+ICY_cappuccino,Branch6,7,NYC
+SMALL_LATTE,Branch2,7,Houston
+Double_cappuccino,Branch9,7,Chicago
+LARGE_LATTE,Branch5,7,Phoenix
+Mild_LATTE,Branch1,7,Dallas
+Cold_cappuccino,Branch6,8,NYC
+Special_Espresso,Branch2,8,Houston
+MED_Espresso,Branch9,8,Chicago
+Triple_cappuccino,Branch5,8,Phoenix
+ICY_Espresso,Branch1,8,Dallas
+SMALL_Coffee,Branch6,9,NYC
+Double_LATTE,Branch2,9,Houston
+LARGE_Coffee,Branch9,9,Chicago
+Mild_Coffee,Branch5,9,Phoenix
+Cold_LATTE,Branch1,9,Dallas
+Special_Lite,Branch6,10,NYC
+MED_Lite,Branch2,10,Houston
+Triple_Espresso,Branch9,10,Chicago
+ICY_Lite,Branch5,10,Phoenix
+SMALL_MOCHA,Branch1,10,Dallas
+Double_Coffee,Branch6,11,NYC
+LARGE_MOCHA,Branch2,11,Houston
+Mild_MOCHA,Branch9,11,Chicago
+Cold_Coffee,Branch5,11,Phoenix
+Special_cappuccino,Branch1,11,Dallas
+MED_cappuccino,Branch6,12,NYC
+Triple_Lite,Branch2,12,Houston
+ICY_cappuccino,Branch9,12,Chicago
+SMALL_cappuccino,Branch5,12,Phoenix
+Double_MOCHA,Branch1,12,Dallas
+LARGE_cappuccino,Branch6,13,NYC
+Mild_cappuccino,Branch2,13,Houston
+Cold_MOCHA,Branch9,13,Chicago
+Special_LATTE,Branch5,13,Phoenix
+MED_LATTE,Branch1,13,Dallas
+Triple_cappuccino,Branch6,14,NYC
+ICY_LATTE,Branch2,14,Houston
+SMALL_Espresso,Branch9,14,Chicago
+Double_cappuccino,Branch5,14,Phoenix
+LARGE_Espresso,Branch1,14,Dallas
+Mild_Espresso,Branch6,15,NYC
+Cold_cappuccino,Branch2,15,Houston
+Special_Coffee,Branch9,15,Chicago
+MED_Coffee,Branch5,15,Phoenix
+Triple_LATTE,Branch1,15,Dallas
+ICY_Coffee,Branch6,16,NYC
+SMALL_Lite,Branch2,16,Houston
+Double_Espresso,Branch9,16,Chicago
+LARGE_Lite,Branch5,16,Phoenix
+Mild_Lite,Branch1,16,Dallas
+Cold_Espresso,Branch6,17,NYC
+Special_MOCHA,Branch2,17,Houston
+MED_MOCHA,Branch9,17,Chicago
+Triple_Coffee,Branch5,17,Phoenix
+ICY_MOCHA,Branch1,17,Dallas
+SMALL_cappuccino,Branch6,18,NYC
+Double_Lite,Branch2,18,Houston
+LARGE_cappuccino,Branch9,18,Chicago
+Mild_cappuccino,Branch5,18,Phoenix
+Cold_Lite,Branch1,18,Dallas
+Special_cappuccino,Branch6,19,NYC
+MED_cappuccino,Branch2,19,Houston
+Triple_MOCHA,Branch9,19,Chicago
+ICY_cappuccino,Branch5,19,Phoenix
+SMALL_LATTE,Branch1,19,Dallas
+Double_cappuccino,Branch6,20,NYC
+LARGE_LATTE,Branch2,20,Houston
+Mild_LATTE,Branch9,20,Chicago
+Cold_cappuccino,Branch5,20,Phoenix
+Special_Espresso,Branch1,20,Dallas
+Special_Lite,Branch6,21,NYC
+Double_cappuccino,Branch5,21,Phoenix
+SMALL_Coffee,Branch7,21,LA
+LARGE_Espresso,Branch3,21,San Antonio
+Triple_Lite,Branch8,21,San Diego
+MED_LATTE,Branch6,22,NYC
+ICY_cappuccino,Branch5,22,Phoenix
+Cold_Espresso,Branch7,22,LA
+Mild_cappuccino,Branch3,22,San Antonio
+Special_cappuccino,Branch8,22,San Diego
+Double_LATTE,Branch6,23,NYC
+SMALL_MOCHA,Branch5,23,Phoenix
+LARGE_Lite,Branch7,23,LA
+Triple_cappuccino,Branch3,23,San Antonio
+MED_Coffee,Branch8,23,San Diego
+ICY_Espresso,Branch6,24,NYC
+Cold_Lite,Branch5,24,Phoenix
+Mild_LATTE,Branch7,24,LA
+Special_LATTE,Branch3,24,San Antonio
+Double_Coffee,Branch8,24,San Diego
+SMALL_cappuccino,Branch6,25,NYC
+LARGE_cappuccino,Branch5,25,Phoenix
+Triple_LATTE,Branch7,25,LA
+MED_MOCHA,Branch3,25,San Antonio
+ICY_Lite,Branch8,25,San Diego
+Cold_cappuccino,Branch6,26,NYC
+Mild_Coffee,Branch5,26,Phoenix
+Special_Coffee,Branch7,26,LA
+Double_MOCHA,Branch3,26,San Antonio
+SMALL_Espresso,Branch8,26,San Diego
+LARGE_LATTE,Branch6,27,NYC
+Triple_Coffee,Branch5,27,Phoenix
+MED_cappuccino,Branch7,27,LA
+ICY_cappuccino,Branch3,27,San Antonio
+Cold_LATTE,Branch8,27,San Diego
+Mild_MOCHA,Branch6,28,NYC
+Special_MOCHA,Branch5,28,Phoenix
+Double_cappuccino,Branch7,28,LA
+SMALL_Lite,Branch3,28,San Antonio
+LARGE_Coffee,Branch8,28,San Diego
+Triple_MOCHA,Branch6,29,NYC
+MED_Espresso,Branch5,29,Phoenix
+ICY_LATTE,Branch7,29,LA
+Cold_Coffee,Branch3,29,San Antonio
+Mild_cappuccino,Branch8,29,San Diego
+Special_cappuccino,Branch6,30,NYC
+Double_Espresso,Branch5,30,Phoenix
+SMALL_cappuccino,Branch7,30,LA
+LARGE_MOCHA,Branch3,30,San Antonio
+Triple_cappuccino,Branch8,30,San Diego
+MED_Lite,Branch6,31,NYC
+ICY_Coffee,Branch5,31,Phoenix
+Cold_MOCHA,Branch7,31,LA
+Mild_Espresso,Branch3,31,San Antonio
+Special_Espresso,Branch8,31,San Diego
+Double_Lite,Branch6,32,NYC
+SMALL_LATTE,Branch5,32,Phoenix
+LARGE_cappuccino,Branch7,32,LA
+Triple_Espresso,Branch3,32,San Antonio
+MED_cappuccino,Branch8,32,San Diego
+ICY_MOCHA,Branch6,33,NYC
+Cold_cappuccino,Branch5,33,Phoenix
+Mild_Lite,Branch7,33,LA
+Special_Lite,Branch3,33,San Antonio
+Double_cappuccino,Branch8,33,San Diego
+SMALL_Coffee,Branch6,34,NYC
+LARGE_Espresso,Branch5,34,Phoenix
+Triple_Lite,Branch7,34,LA
+MED_LATTE,Branch3,34,San Antonio
+ICY_cappuccino,Branch8,34,San Diego
+Cold_Espresso,Branch6,35,NYC
+Mild_cappuccino,Branch5,35,Phoenix
+Special_cappuccino,Branch7,35,LA
+Double_LATTE,Branch3,35,San Antonio
+SMALL_MOCHA,Branch8,35,San Diego
+LARGE_Lite,Branch6,36,NYC
+Triple_cappuccino,Branch5,36,Phoenix
+MED_Coffee,Branch7,36,LA
+ICY_Espresso,Branch3,36,San Antonio
+Cold_Lite,Branch8,36,San Diego
+Mild_LATTE,Branch6,37,NYC
+Special_LATTE,Branch5,37,Phoenix
+Double_Coffee,Branch7,37,LA
+SMALL_cappuccino,Branch3,37,San Antonio
+LARGE_cappuccino,Branch8,37,San Diego
+Triple_LATTE,Branch6,38,NYC
+MED_MOCHA,Branch5,38,Phoenix
+ICY_Lite,Branch7,38,LA
+Cold_cappuccino,Branch3,38,San Antonio
+Mild_Coffee,Branch8,38,San Diego
+Special_Coffee,Branch6,39,NYC
+Double_MOCHA,Branch5,39,Phoenix
+SMALL_Espresso,Branch7,39,LA
+LARGE_LATTE,Branch3,39,San Antonio
+Triple_Coffee,Branch8,39,San Diego
+MED_cappuccino,Branch6,40,NYC
+ICY_cappuccino,Branch5,40,Phoenix
+Cold_LATTE,Branch7,40,LA
+Mild_MOCHA,Branch3,40,San Antonio
+Special_MOCHA,Branch8,40,San Diego
+Double_cappuccino,Branch6,41,NYC
+SMALL_Lite,Branch5,41,Phoenix
+LARGE_Coffee,Branch7,41,LA
+Triple_MOCHA,Branch3,41,San Antonio
+MED_Espresso,Branch8,41,San Diego
+ICY_LATTE,Branch6,42,NYC
+Cold_Coffee,Branch5,42,Phoenix
+Mild_cappuccino,Branch7,42,LA
+Special_cappuccino,Branch3,42,San Antonio
+Double_Espresso,Branch8,42,San Diego
+SMALL_cappuccino,Branch6,43,NYC
+LARGE_MOCHA,Branch5,43,Phoenix
+Triple_cappuccino,Branch7,43,LA
+MED_Lite,Branch3,43,San Antonio
+ICY_Coffee,Branch8,43,San Diego
+Cold_MOCHA,Branch6,44,NYC
+Mild_Espresso,Branch5,44,Phoenix
+Special_Espresso,Branch7,44,LA
+Double_Lite,Branch3,44,San Antonio
+SMALL_LATTE,Branch8,44,San Diego
+LARGE_cappuccino,Branch6,45,NYC
+Triple_Espresso,Branch5,45,Phoenix
+MED_cappuccino,Branch7,45,LA
+ICY_MOCHA,Branch3,45,San Antonio
+Cold_cappuccino,Branch8,45,San Diego
+Mild_Lite,Branch6,46,NYC
+Special_Lite,Branch5,46,Phoenix
+Double_cappuccino,Branch7,46,LA
+SMALL_Coffee,Branch3,46,San Antonio
+LARGE_Espresso,Branch8,46,San Diego
+Triple_Lite,Branch6,47,NYC
+MED_LATTE,Branch5,47,Phoenix
+ICY_cappuccino,Branch7,47,LA
+Cold_Espresso,Branch3,47,San Antonio
+Mild_cappuccino,Branch8,47,San Diego
+Special_cappuccino,Branch6,48,NYC
+Double_LATTE,Branch5,48,Phoenix
+SMALL_MOCHA,Branch7,48,LA
+LARGE_Lite,Branch3,48,San Antonio
+Triple_cappuccino,Branch8,48,San Diego
+MED_Coffee,Branch6,49,NYC
+ICY_Espresso,Branch5,49,Phoenix
+Cold_Lite,Branch7,49,LA
+Mild_LATTE,Branch3,49,San Antonio
+Special_LATTE,Branch8,49,San Diego
+Double_Coffee,Branch6,50,NYC
+SMALL_cappuccino,Branch5,50,Phoenix
+LARGE_cappuccino,Branch7,50,LA
+Triple_LATTE,Branch3,50,San Antonio
+MED_MOCHA,Branch8,50,San Diego
+ICY_Lite,Branch6,51,NYC
+Cold_cappuccino,Branch5,51,Phoenix
+Mild_Coffee,Branch7,51,LA
+Special_Coffee,Branch3,51,San Antonio
+Double_MOCHA,Branch8,51,San Diego
+SMALL_Espresso,Branch6,52,NYC
+LARGE_LATTE,Branch5,52,Phoenix
+Triple_Coffee,Branch7,52,LA
+MED_cappuccino,Branch3,52,San Antonio
+ICY_cappuccino,Branch8,52,San Diego
+Cold_LATTE,Branch6,53,NYC
+Mild_MOCHA,Branch5,53,Phoenix
+Special_MOCHA,Branch7,53,LA
+Double_cappuccino,Branch3,53,San Antonio
+SMALL_Lite,Branch8,53,San Diego
+LARGE_Coffee,Branch6,54,NYC
+Triple_MOCHA,Branch5,54,Phoenix
+MED_Espresso,Branch7,54,LA
+ICY_LATTE,Branch3,54,San Antonio
+Cold_Coffee,Branch8,54,San Diego
+Mild_cappuccino,Branch6,55,NYC
+Special_cappuccino,Branch5,55,Phoenix
+Double_Espresso,Branch7,55,LA
+SMALL_cappuccino,Branch3,55,San Antonio
+LARGE_MOCHA,Branch8,55,San Diego
+Triple_cappuccino,Branch6,56,NYC
+MED_Lite,Branch5,56,Phoenix
+ICY_Coffee,Branch7,56,LA
+Cold_MOCHA,Branch3,56,San Antonio
+Mild_Espresso,Branch8,56,San Diego
+Special_Espresso,Branch6,57,NYC
+Double_Lite,Branch5,57,Phoenix
+SMALL_LATTE,Branch7,57,LA
+LARGE_cappuccino,Branch3,57,San Antonio
+Triple_Espresso,Branch8,57,San Diego
+MED_cappuccino,Branch6,58,NYC
+ICY_MOCHA,Branch5,58,Phoenix
+Cold_cappuccino,Branch7,58,LA
+Mild_Lite,Branch3,58,San Antonio
+Special_Lite,Branch8,58,San Diego
+Double_cappuccino,Branch6,59,NYC
+SMALL_Coffee,Branch5,59,Phoenix
+LARGE_Espresso,Branch7,59,LA
+Triple_Lite,Branch3,59,San Antonio
+MED_LATTE,Branch8,59,San Diego
+ICY_cappuccino,Branch6,60,NYC
+Cold_Espresso,Branch5,60,Phoenix
+Mild_cappuccino,Branch7,60,LA
+Special_cappuccino,Branch3,60,San Antonio
+Double_LATTE,Branch8,60,San Diego
+Special_Lite,Branch6,61,NYC
+Double_Coffee,Branch9,61,Chicago
+SMALL_cappuccino,Branch4,61,Philadelphia
+LARGE_cappuccino,Branch7,61,LA
+Triple_LATTE,Branch2,61,Houston
+MED_MOCHA,Branch6,62,NYC
+ICY_Lite,Branch9,62,Chicago
+Cold_cappuccino,Branch4,62,Philadelphia
+Mild_Coffee,Branch7,62,LA
+Special_Coffee,Branch2,62,Houston
+Double_MOCHA,Branch6,63,NYC
+SMALL_Espresso,Branch9,63,Chicago
+LARGE_LATTE,Branch4,63,Philadelphia
+Triple_Coffee,Branch7,63,LA
+MED_cappuccino,Branch2,63,Houston
+ICY_cappuccino,Branch6,64,NYC
+Cold_LATTE,Branch9,64,Chicago
+Mild_MOCHA,Branch4,64,Philadelphia
+Special_MOCHA,Branch7,64,LA
+Double_cappuccino,Branch2,64,Houston
+SMALL_Lite,Branch6,65,NYC
+LARGE_Coffee,Branch9,65,Chicago
+Triple_MOCHA,Branch4,65,Philadelphia
+MED_Espresso,Branch7,65,LA
+ICY_LATTE,Branch2,65,Houston
+Cold_Coffee,Branch6,66,NYC
+Mild_cappuccino,Branch9,66,Chicago
+Special_cappuccino,Branch4,66,Philadelphia
+Double_Espresso,Branch7,66,LA
+SMALL_cappuccino,Branch2,66,Houston
+LARGE_MOCHA,Branch6,67,NYC
+Triple_cappuccino,Branch9,67,Chicago
+MED_Lite,Branch4,67,Philadelphia
+ICY_Coffee,Branch7,67,LA
+Cold_MOCHA,Branch2,67,Houston
+Mild_Espresso,Branch6,68,NYC
+Special_Espresso,Branch9,68,Chicago
+Double_Lite,Branch4,68,Philadelphia
+SMALL_LATTE,Branch7,68,LA
+LARGE_cappuccino,Branch2,68,Houston
+Triple_Espresso,Branch6,69,NYC
+MED_cappuccino,Branch9,69,Chicago
+ICY_MOCHA,Branch4,69,Philadelphia
+Cold_cappuccino,Branch7,69,LA
+Mild_Lite,Branch2,69,Houston
+Special_Lite,Branch6,70,NYC
+Double_cappuccino,Branch9,70,Chicago
+SMALL_Coffee,Branch4,70,Philadelphia
+LARGE_Espresso,Branch7,70,LA
+Triple_Lite,Branch2,70,Houston
+MED_LATTE,Branch6,71,NYC
+ICY_cappuccino,Branch9,71,Chicago
+Cold_Espresso,Branch4,71,Philadelphia
+Mild_cappuccino,Branch7,71,LA
+Special_cappuccino,Branch2,71,Houston
+Double_LATTE,Branch6,72,NYC
+SMALL_MOCHA,Branch9,72,Chicago
+LARGE_Lite,Branch4,72,Philadelphia
+Triple_cappuccino,Branch7,72,LA
+MED_Coffee,Branch2,72,Houston
+ICY_Espresso,Branch6,73,NYC
+Cold_Lite,Branch9,73,Chicago
+Mild_LATTE,Branch4,73,Philadelphia
+Special_LATTE,Branch7,73,LA
+Double_Coffee,Branch2,73,Houston
+SMALL_cappuccino,Branch6,74,NYC
+LARGE_cappuccino,Branch9,74,Chicago
+Triple_LATTE,Branch4,74,Philadelphia
+MED_MOCHA,Branch7,74,LA
+ICY_Lite,Branch2,74,Houston
+Cold_cappuccino,Branch6,75,NYC
+Mild_Coffee,Branch9,75,Chicago
+Special_Coffee,Branch4,75,Philadelphia
+Double_MOCHA,Branch7,75,LA
+SMALL_Espresso,Branch2,75,Houston
+LARGE_LATTE,Branch6,76,NYC
+Triple_Coffee,Branch9,76,Chicago
+MED_cappuccino,Branch4,76,Philadelphia
+ICY_cappuccino,Branch7,76,LA
+Cold_LATTE,Branch2,76,Houston
+Mild_MOCHA,Branch6,77,NYC
+Special_MOCHA,Branch9,77,Chicago
+Double_cappuccino,Branch4,77,Philadelphia
+SMALL_Lite,Branch7,77,LA
+LARGE_Coffee,Branch2,77,Houston
+Triple_MOCHA,Branch6,78,NYC
+MED_Espresso,Branch9,78,Chicago
+ICY_LATTE,Branch4,78,Philadelphia
+Cold_Coffee,Branch7,78,LA
+Mild_cappuccino,Branch2,78,Houston
+Special_cappuccino,Branch6,79,NYC
+Double_Espresso,Branch9,79,Chicago
+SMALL_cappuccino,Branch4,79,Philadelphia
+LARGE_MOCHA,Branch7,79,LA
+Triple_cappuccino,Branch2,79,Houston
+MED_Lite,Branch6,80,NYC
+ICY_Coffee,Branch9,80,Chicago
+Cold_MOCHA,Branch4,80,Philadelphia
+Mild_Espresso,Branch7,80,LA
+Special_Espresso,Branch2,80,Houston
+Double_Lite,Branch6,81,NYC
+SMALL_LATTE,Branch9,81,Chicago
+LARGE_cappuccino,Branch4,81,Philadelphia
+Triple_Espresso,Branch7,81,LA
+MED_cappuccino,Branch2,81,Houston
+ICY_MOCHA,Branch6,82,NYC
+Cold_cappuccino,Branch9,82,Chicago
+Mild_Lite,Branch4,82,Philadelphia
+Special_Lite,Branch7,82,LA
+Double_cappuccino,Branch2,82,Houston
+SMALL_Coffee,Branch6,83,NYC
+LARGE_Espresso,Branch9,83,Chicago
+Triple_Lite,Branch4,83,Philadelphia
+MED_LATTE,Branch7,83,LA
+ICY_cappuccino,Branch2,83,Houston
+Cold_Espresso,Branch6,84,NYC
+Mild_cappuccino,Branch9,84,Chicago
+Special_cappuccino,Branch4,84,Philadelphia
+Double_LATTE,Branch7,84,LA
+SMALL_MOCHA,Branch2,84,Houston
+LARGE_Lite,Branch6,85,NYC
+Triple_cappuccino,Branch9,85,Chicago
+MED_Coffee,Branch4,85,Philadelphia
+ICY_Espresso,Branch7,85,LA
+Cold_Lite,Branch2,85,Houston
+Mild_LATTE,Branch6,86,NYC
+Special_LATTE,Branch9,86,Chicago
+Double_Coffee,Branch4,86,Philadelphia
+SMALL_cappuccino,Branch7,86,LA
+LARGE_cappuccino,Branch2,86,Houston
+Triple_LATTE,Branch6,87,NYC
+MED_MOCHA,Branch9,87,Chicago
+ICY_Lite,Branch4,87,Philadelphia
+Cold_cappuccino,Branch7,87,LA
+Mild_Coffee,Branch2,87,Houston
+Special_Coffee,Branch6,88,NYC
+Double_MOCHA,Branch9,88,Chicago
+SMALL_Espresso,Branch4,88,Philadelphia
+LARGE_LATTE,Branch7,88,LA
+Triple_Coffee,Branch2,88,Houston
+MED_cappuccino,Branch6,89,NYC
+ICY_cappuccino,Branch9,89,Chicago
+Cold_LATTE,Branch4,89,Philadelphia
+Mild_MOCHA,Branch7,89,LA
+Special_MOCHA,Branch2,89,Houston
+Double_cappuccino,Branch6,90,NYC
+SMALL_Lite,Branch9,90,Chicago
+LARGE_Coffee,Branch4,90,Philadelphia
+Triple_MOCHA,Branch7,90,LA
+MED_Espresso,Branch2,90,Houston
+ICY_LATTE,Branch6,91,NYC
+Cold_Coffee,Branch9,91,Chicago
+Mild_cappuccino,Branch4,91,Philadelphia
+Special_cappuccino,Branch7,91,LA
+Double_Espresso,Branch2,91,Houston
+SMALL_cappuccino,Branch6,92,NYC
+LARGE_MOCHA,Branch9,92,Chicago
+Triple_cappuccino,Branch4,92,Philadelphia
+MED_Lite,Branch7,92,LA
+ICY_Coffee,Branch2,92,Houston
+Cold_MOCHA,Branch6,93,NYC
+Mild_Espresso,Branch9,93,Chicago
+Special_Espresso,Branch4,93,Philadelphia
+Double_Lite,Branch7,93,LA
+SMALL_LATTE,Branch2,93,Houston
+LARGE_cappuccino,Branch6,94,NYC
+Triple_Espresso,Branch9,94,Chicago
+MED_cappuccino,Branch4,94,Philadelphia
+ICY_MOCHA,Branch7,94,LA
+Cold_cappuccino,Branch2,94,Houston
+Mild_Lite,Branch6,95,NYC
+Special_Lite,Branch9,95,Chicago
+Double_cappuccino,Branch4,95,Philadelphia
+SMALL_Coffee,Branch7,95,LA
+LARGE_Espresso,Branch2,95,Houston
+Triple_Lite,Branch6,96,NYC
+MED_LATTE,Branch9,96,Chicago
+ICY_cappuccino,Branch4,96,Philadelphia
+Cold_Espresso,Branch7,96,LA
+Mild_cappuccino,Branch2,96,Houston
+Special_cappuccino,Branch6,97,NYC
+Double_LATTE,Branch9,97,Chicago
+SMALL_MOCHA,Branch4,97,Philadelphia
+LARGE_Lite,Branch7,97,LA
+Triple_cappuccino,Branch2,97,Houston
+MED_Coffee,Branch6,98,NYC
+ICY_Espresso,Branch9,98,Chicago
+Cold_Lite,Branch4,98,Philadelphia
+Mild_LATTE,Branch7,98,LA
+Special_LATTE,Branch2,98,Houston
+Double_Coffee,Branch6,99,NYC
+SMALL_cappuccino,Branch9,99,Chicago
+LARGE_cappuccino,Branch4,99,Philadelphia
+Triple_LATTE,Branch7,99,LA
+MED_MOCHA,Branch2,99,Houston
+ICY_Lite,Branch6,100,NYC
+Cold_cappuccino,Branch9,100,Chicago
+Mild_Coffee,Branch4,100,Philadelphia
+Special_Coffee,Branch7,100,LA
+Double_MOCHA,Branch2,100,Houston
+SMALL_Espresso,Branch6,101,NYC
+LARGE_LATTE,Branch9,101,Chicago
+Triple_Coffee,Branch4,101,Philadelphia
+MED_cappuccino,Branch7,101,LA
+ICY_cappuccino,Branch2,101,Houston
+Cold_LATTE,Branch6,102,NYC
+Mild_MOCHA,Branch9,102,Chicago
+Special_MOCHA,Branch4,102,Philadelphia
+Double_cappuccino,Branch7,102,LA
+SMALL_Lite,Branch2,102,Houston
+LARGE_Coffee,Branch6,103,NYC
+Triple_MOCHA,Branch9,103,Chicago
+MED_Espresso,Branch4,103,Philadelphia
+ICY_LATTE,Branch7,103,LA
+Cold_Coffee,Branch2,103,Houston
+Mild_cappuccino,Branch6,104,NYC
+Special_cappuccino,Branch9,104,Chicago
+Double_Espresso,Branch4,104,Philadelphia
+SMALL_cappuccino,Branch7,104,LA
+LARGE_MOCHA,Branch2,104,Houston
+Triple_cappuccino,Branch6,105,NYC
+MED_Lite,Branch9,105,Chicago
+ICY_Coffee,Branch4,105,Philadelphia
+Cold_MOCHA,Branch7,105,LA
+Mild_Espresso,Branch2,105,Houston
+Special_Espresso,Branch6,106,NYC
+Double_Lite,Branch9,106,Chicago
+SMALL_LATTE,Branch4,106,Philadelphia
+LARGE_cappuccino,Branch7,106,LA
+Triple_Espresso,Branch2,106,Houston
+MED_cappuccino,Branch6,107,NYC
+ICY_MOCHA,Branch9,107,Chicago
+Cold_cappuccino,Branch4,107,Philadelphia
+Mild_Lite,Branch7,107,LA
+Special_Lite,Branch2,107,Houston
+Double_cappuccino,Branch6,108,NYC
+SMALL_Coffee,Branch9,108,Chicago
+LARGE_Espresso,Branch4,108,Philadelphia
+Triple_Lite,Branch7,108,LA
+MED_LATTE,Branch2,108,Houston
+ICY_cappuccino,Branch6,109,NYC
+Cold_Espresso,Branch9,109,Chicago
+Mild_cappuccino,Branch4,109,Philadelphia
+Special_cappuccino,Branch7,109,LA
+Double_LATTE,Branch2,109,Houston
+SMALL_MOCHA,Branch6,110,NYC
+LARGE_Lite,Branch9,110,Chicago
+Triple_cappuccino,Branch4,110,Philadelphia
+MED_Coffee,Branch7,110,LA
+ICY_Espresso,Branch2,110,Houston
+Cold_Lite,Branch6,111,NYC
+Mild_LATTE,Branch9,111,Chicago
+Special_LATTE,Branch4,111,Philadelphia
+Double_Coffee,Branch7,111,LA
+SMALL_cappuccino,Branch2,111,Houston
+LARGE_cappuccino,Branch6,112,NYC
+Triple_LATTE,Branch9,112,Chicago
+MED_MOCHA,Branch4,112,Philadelphia
+ICY_Lite,Branch7,112,LA
+Cold_cappuccino,Branch2,112,Houston
+Mild_Coffee,Branch6,113,NYC
+Special_Coffee,Branch9,113,Chicago
+Double_MOCHA,Branch4,113,Philadelphia
+SMALL_Espresso,Branch7,113,LA
+LARGE_LATTE,Branch2,113,Houston
+Triple_Coffee,Branch6,114,NYC
+MED_cappuccino,Branch9,114,Chicago
+ICY_cappuccino,Branch4,114,Philadelphia
+Cold_LATTE,Branch7,114,LA
+Mild_MOCHA,Branch2,114,Houston
+Special_MOCHA,Branch6,115,NYC
+Double_cappuccino,Branch9,115,Chicago
+SMALL_Lite,Branch4,115,Philadelphia
+LARGE_Coffee,Branch7,115,LA
+Triple_MOCHA,Branch2,115,Houston
+MED_Espresso,Branch6,116,NYC
+ICY_LATTE,Branch9,116,Chicago
+Cold_Coffee,Branch4,116,Philadelphia
+Mild_cappuccino,Branch7,116,LA
+Special_cappuccino,Branch2,116,Houston
+Double_Espresso,Branch6,117,NYC
+SMALL_cappuccino,Branch9,117,Chicago
+LARGE_MOCHA,Branch4,117,Philadelphia
+Triple_cappuccino,Branch7,117,LA
+MED_Lite,Branch2,117,Houston
+ICY_Coffee,Branch6,118,NYC
+Cold_MOCHA,Branch9,118,Chicago
+Mild_Espresso,Branch4,118,Philadelphia
+Special_Espresso,Branch7,118,LA
+Double_Lite,Branch2,118,Houston
+SMALL_LATTE,Branch6,119,NYC
+LARGE_cappuccino,Branch9,119,Chicago
+Triple_Espresso,Branch4,119,Philadelphia
+MED_cappuccino,Branch7,119,LA
+ICY_MOCHA,Branch2,119,Houston
+Cold_cappuccino,Branch6,120,NYC
+Mild_Lite,Branch9,120,Chicago
+Special_Lite,Branch4,120,Philadelphia
+Double_cappuccino,Branch7,120,LA
+SMALL_Coffee,Branch2,120,Houston
