@@ -13,17 +13,47 @@ object Scen_6_Future_Problem {
      */
 
     println("The most consumed drinks of Branch 1 over 3 months were: ")
-    spark.sql("Select beverage, consumed from p6_fullbevcombined where branch = 'Branch1' group by beverage, consumed order by consumed desc limit 10").show()
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch1' group by beverage order by total_consumed desc) t limit 2").show()
 
     println()
 
     println("The most consumed drinks of Branch 2 over 3 months were: ")
-    spark.sql("Select beverage, consumed from p6_fullbevcombined where branch = 'Branch2' group by beverage, consumed order by consumed desc limit 10").show()
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch2' group by beverage order by total_consumed desc) t limit 2").show()
+
+    println()
+
+    println("The most consumed drinks of Branch 3 over 3 months were: ")
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch3' group by beverage order by total_consumed desc) t limit 2").show()
+
+    println()
+
+    println("The most consumed drinks of Branch 4 over 3 months were: ")
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch4' group by beverage order by total_consumed desc) t limit 2").show()
+
+    println()
+
+    println("The most consumed drinks of Branch 5 over 3 months were: ")
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch5' group by beverage order by total_consumed desc) t limit 2").show()
 
     println()
 
     println("The most consumed drinks of Branch 6 over 3 months were: ")
-    spark.sql("Select beverage, consumed from p6_fullbevcombined where branch = 'Branch6' group by beverage, consumed order by consumed desc limit 10").show()
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch6' group by beverage order by total_consumed desc) t limit 2").show()
+
+    println()
+
+    println("The most consumed drinks of Branch 7 over 3 months were: ")
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch7' group by beverage order by total_consumed desc) t limit 2").show()
+
+    println()
+
+    println("The most consumed drinks of Branch 8 over 3 months were: ")
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch8' group by beverage order by total_consumed desc) t limit 2").show()
+
+    println()
+
+    println("The most consumed drinks of Branch 9 over 3 months were: ")
+    spark.sql("Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from p6_fullbevcombined where branch = 'Branch9' group by beverage order by total_consumed desc) t limit 2").show()
 
 
 
