@@ -163,8 +163,13 @@ object Scen_1_thru_5 {
     spark.sql("Describe extended P5_Table").show(100)
     spark.sql("SHOW TBLPROPERTIES P5_Table").show(100)
 
+    //row removal below, would use the DELETE keyword if it were available in this edition
 
-
+    //spark.sql("ALTER TABLE P5_Table ADD COLUMNS (row_num int)")
+    //spark.sql("INSERT OVERWRITE TABLE P5_Table Select t.* from (select Beverage,Branch, ROW_NUMBER() OVER(order by branch asc) as rn from P5_Table) t where t.rn <> 5")
+    spark.sql("Select count(*) from bevbrancha").show()
+    spark.sql("Select count(*) from P5_Table").show()
+    spark.sql("Select * from P5_Table").show(100)
 
   }
 }

@@ -49,6 +49,13 @@ object Table_Management {
     //below table created for Scenario 5
     spark.sql("create table IF NOT EXISTS P5_Table(Beverage String,Branch String) row format delimited fields terminated by ','")
     spark.sql("LOAD DATA LOCAL INPATH 'input/Bev_BranchA.txt' INTO TABLE P5_Table")
+
+    //below tables created for Scenario 6
+    spark.sql("create table IF NOT EXISTS p6_fullBevBranch(Beverage String,Branch String,Day Int,City String) row format delimited fields terminated by ','")
+    spark.sql("LOAD DATA LOCAL INPATH 'input/p6_FullBevBranch.txt' INTO TABLE p6_fullBevBranch")
+    //spark.sql("Select * from p6_fullBevBranch").show(700)
+    spark.sql("create table IF NOT EXISTS p6_fullBevCombined(Beverage String,Branch String,Day Int,City String,Consumed Int)")
+    spark.sql("Insert INTO TABLE p6_fullBevCombined Select a.beverage, a.branch, a.day, a.city, b.consumed from p6_fullbevbranch a join BevConscountFull b on a.beverage = b.beverage")
   }
 
   def drop_Tables(spark: SparkSession): Unit = {
@@ -68,6 +75,9 @@ object Table_Management {
     spark.sql("Drop TABLE branch_Partitions")
     //for dropping Scenario 5 table
     spark.sql("Drop TABLE P5_Table")
+    //for dropping Scenario 6 tables
+    spark.sql("Drop TABLE p6_fullBevBranch")
+    spark.sql("Drop TABLE p6_fullBevCombined")
   }
 
 }

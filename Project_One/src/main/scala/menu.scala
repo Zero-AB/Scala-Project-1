@@ -44,6 +44,7 @@ object menu {
       Scen_1_thru_5.Problem_Scen_5(spark)
     } else if (userInput == 6) {
       println("Problem 6 Selected" + "\n")
+      Scen_6_Future_Problem.problem(spark)
     } else if (userInput == 0) {
       println("Exit selected" + "\n" + "\n")
       sys.exit(0)
