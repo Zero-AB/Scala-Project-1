@@ -60,6 +60,8 @@ object Table_Management {
 
     //for dropping table created for Scenario 1
     spark.sql("Drop TABLE BevFullCombined")
+    //for dropping partition table
+    spark.sql("Drop TABLE branch_Partitions")
   }
 
 }

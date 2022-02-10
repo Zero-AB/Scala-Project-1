@@ -69,25 +69,89 @@ object Scen_1_thru_5 {
      */
 
     println("The beverages available on Branch 10 are: ")
-    spark.sql("Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch10' order by b.beverage asc").show(60)
+    spark.sql("Select Distinct b.beverage as Beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch10' order by beverage asc").show(60)
 
     println("The beverages available on Branch 8 are: ")
-    spark.sql("Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch8' order by b.beverage asc").show(60)
+    spark.sql("Select Distinct b.beverage as Beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch8' order by beverage asc").show(60)
 
     println("The beverages available on Branch 1 are: ")
-    spark.sql("Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch1' order by b.beverage asc").show(60)
+    spark.sql("Select Distinct b.beverage as Beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch1' order by beverage asc").show(60)
 
     //then join the 3 with distinct beverages
 
     println("The beverages available on all 3 branches are: ")
-    spark.sql("Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch10' or a.branch = 'Branch8' or a.branch = 'Branch1'order by b.beverage asc").show(60)
+    spark.sql("Select Distinct b.beverage as Beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch10' or a.branch = 'Branch8' or a.branch = 'Branch1' order by beverage asc").show(60)
 
     println("The common beverages available between Branch 4 and Branch 7 are: ")
     //spark.sql("Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch4' order by b.beverage asc").show(100)
     //spark.sql("Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch7' order by b.beverage asc").show(100)
-    spark.sql("Select x.beverage from (Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch4' order by b.beverage asc) x " +
+    spark.sql("Select x.beverage as Beverage from (Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch4' order by b.beverage asc) x " +
       "inner join (Select Distinct b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch7' order by b.beverage asc) y on " +
-      "x.beverage= y.beverage order by x.beverage asc").show(100)
+      "x.beverage= y.beverage order by beverage asc").show(100)
   }
+  def Problem_Scen_4(spark: SparkSession): Unit = {
+    /*
+    Problem Scenario 4
+    create a partition,
+    View for the scenario3.
+     */
 
+    //probably want to partition by branch
+
+    spark.sql("Create table if NOT exists branch_Partitions(Beverage String, Consumed Int) Partitioned by (Branch String)")
+    //spark.sql("INSERT OVERWRITE TABLE branch_Partitions Partition(Branch = 'Branch1') Select BeverageB, Consumed from BevFullCombined where branch = 'Branch1'")
+    //spark.sql("INSERT OVERWRITE TABLE branch_Partitions Partition(Branch = 'Branch4') Select BeverageB, Consumed from BevFullCombined where branch = 'Branch4'")
+    //spark.sql("INSERT OVERWRITE TABLE branch_Partitions Partition(Branch = 'Branch7') Select BeverageB, Consumed from BevFullCombined where branch = 'Branch7'")
+    //spark.sql("INSERT OVERWRITE TABLE branch_Partitions Partition(Branch = 'Branch8') Select BeverageB, Consumed from BevFullCombined where branch = 'Branch8'")
+    //spark.sql("INSERT OVERWRITE TABLE branch_Partitions Partition(Branch = 'Branch10') Select BeverageB, Consumed from BevFullCombined where branch = 'Branch10'")
+
+    //Below used for testing
+    //spark.sql("Select * from branch_Partitions where branch = 'Branch1'").show(1000)
+    //spark.sql("Select sum(consumed) from branch_Partitions where branch = 'Branch1'").show()
+
+    println("The beverages available on Branch 10 using PARTITION are: ")
+    spark.sql("Select Distinct Beverage from branch_Partitions where branch = 'Branch10' order by beverage asc").show(60)
+
+    println("The beverages available on Branch 8 using PARTITION are: ")
+    spark.sql("Select Distinct Beverage from branch_Partitions where branch = 'Branch8' order by beverage asc").show(60)
+
+    println("The beverages available on Branch 1 using PARTITION are: ")
+    spark.sql("Select Distinct Beverage from branch_Partitions where branch = 'Branch1' order by beverage asc").show(60)
+
+    println("The beverages available on all 3 branches using PARTITION are: ")
+    spark.sql("Select Distinct Beverage from ((Select Beverage from branch_Partitions where branch = 'Branch1' UNION Select Beverage from branch_Partitions where branch = 'Branch8') UNION Select Beverage from branch_Partitions where branch = 'Branch10') order by beverage asc").show(60)
+
+    println("The common beverages available between Branch 4 and Branch 7 using PARTITION are: ")
+    spark.sql("Select Beverage from ((Select Distinct beverage from branch_Partitions where branch = 'Branch4') intersect (Select Distinct beverage from branch_Partitions where branch = 'Branch7')) order by beverage asc").show(100)
+
+    //create view by branch
+
+    spark.sql("Create view if Not Exists B1View as select b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch1'")
+    spark.sql("Create view if Not Exists B4View as select b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch4'")
+    spark.sql("Create view if Not Exists B7View as select b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch7'")
+    spark.sql("Create view if Not Exists B8View as select b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch8'")
+    spark.sql("Create view if Not Exists B10View as select b.beverage from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage where a.branch = 'Branch10'")
+
+    println("The beverages available on Branch 10 using VIEW are: ")
+    spark.sql("Select Distinct Beverage from B10View order by beverage asc").show(60)
+
+    println("The beverages available on Branch 8 using VIEW are: ")
+    spark.sql("Select Distinct Beverage from B8View order by beverage asc").show(60)
+
+    println("The beverages available on Branch 1 using VIEW are: ")
+    spark.sql("Select Distinct Beverage from B1View order by beverage asc").show(60)
+
+    println("The beverages available on all 3 branches using VIEW are: ")
+    spark.sql("Select Distinct Beverage from ((Select Beverage from B1View UNION Select Beverage from B8View) UNION Select Beverage from B10View) order by beverage asc").show(60)
+
+    println("The common beverages available between Branch 4 and Branch 7 using VIEW are: ")
+    spark.sql("Select Beverage from ((Select Distinct beverage from B4View) intersect (Select Distinct beverage from B7View)) order by beverage asc").show(100)
+  }
+  def Problem_Scen_5(spark: SparkSession): Unit = {
+    /*
+   Problem Scenario 5
+   Alter the table properties to add "note","comment"
+   Remove a row from the any Scenario.
+    */
+  }
 }

@@ -38,6 +38,7 @@ object menu {
       Scen_1_thru_5.Problem_Scen_3(spark)
     } else if (userInput == 4) {
       println("Problem 4 Selected" + "\n")
+      Scen_1_thru_5.Problem_Scen_4(spark)
     } else if (userInput == 5) {
       println("Problem 5 Selected" + "\n")
     } else if (userInput == 6) {

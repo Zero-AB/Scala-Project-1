@@ -25,12 +25,10 @@ object Project_One {
     //create_Tables(spark)
     //drop_Tables(spark)
 
-
     //run the program
     while (0 < 1) {
       main_menu(spark)
     }
-
 
   }
 
