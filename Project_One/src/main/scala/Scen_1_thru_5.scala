@@ -146,6 +146,9 @@ object Scen_1_thru_5 {
 
     println("The common beverages available between Branch 4 and Branch 7 using VIEW are: ")
     spark.sql("Select Beverage from ((Select Distinct beverage from B4View) intersect (Select Distinct beverage from B7View)) order by beverage asc").show(100)
+
+    spark.sql("Describe extended branch_Partitions").show(100)
+    spark.sql("Describe extended B1View").show(100)
   }
   def Problem_Scen_5(spark: SparkSession): Unit = {
     /*
@@ -153,5 +156,15 @@ object Scen_1_thru_5 {
    Alter the table properties to add "note","comment"
    Remove a row from the any Scenario.
     */
+
+    //spark.sql("ALTER TABLE P5_Table SET TBLPROPERTIES('comment'='This is the comment for Problem Scenario 5')")
+    //spark.sql("ALTER TABLE P5_Table SET TBLPROPERTIES('notes' = 'The notes are input similarly; here it is for P5')")
+
+    spark.sql("Describe extended P5_Table").show(100)
+    spark.sql("SHOW TBLPROPERTIES P5_Table").show(100)
+
+
+
+
   }
 }

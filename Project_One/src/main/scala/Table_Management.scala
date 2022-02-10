@@ -45,6 +45,10 @@ object Table_Management {
     println("Table Created")
     spark.sql("Insert INTO TABLE BevFullCombined Select * from BevBranchFull a join BevConscountFull b on a.beverage = b.beverage")
     println("Data Inserted")
+
+    //below table created for Scenario 5
+    spark.sql("create table IF NOT EXISTS P5_Table(Beverage String,Branch String) row format delimited fields terminated by ','")
+    spark.sql("LOAD DATA LOCAL INPATH 'input/Bev_BranchA.txt' INTO TABLE P5_Table")
   }
 
   def drop_Tables(spark: SparkSession): Unit = {
@@ -62,6 +66,8 @@ object Table_Management {
     spark.sql("Drop TABLE BevFullCombined")
     //for dropping partition table
     spark.sql("Drop TABLE branch_Partitions")
+    //for dropping Scenario 5 table
+    spark.sql("Drop TABLE P5_Table")
   }
 
 }

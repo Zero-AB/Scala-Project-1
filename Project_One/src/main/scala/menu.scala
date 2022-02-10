@@ -17,10 +17,10 @@ object menu {
     println("********************************")
     println()
     println(" 1: Problem 1 (Consumers)")
-    println(" 2: Problem 2 ((Favorite Beverages)")
+    println(" 2: Problem 2 (Favorite Beverages)")
     println(" 3: Problem 3 (Beverage Availability)")
-    println(" 4: Problem 4 (Partitions and Views for P3")
-    println(" 5: Problem 5 (Notes and Row Removal")
+    println(" 4: Problem 4 (Partitions and Views for P3)")
+    println(" 5: Problem 5 (Notes and Row Removal)")
     println(" 6: Problem 6 (Future Query)")
     println(" 0: Exit")
     println()
@@ -41,6 +41,7 @@ object menu {
       Scen_1_thru_5.Problem_Scen_4(spark)
     } else if (userInput == 5) {
       println("Problem 5 Selected" + "\n")
+      Scen_1_thru_5.Problem_Scen_5(spark)
     } else if (userInput == 6) {
       println("Problem 6 Selected" + "\n")
     } else if (userInput == 0) {
