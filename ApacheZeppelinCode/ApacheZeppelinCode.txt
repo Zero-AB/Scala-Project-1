@@ -1,0 +1,20 @@
+val rf = sc.textFile("pr6_full.csv")
+
+
+val r = rf.map(_.split(",")).map{case Array(a,b,c,d,e) => (a,b,c,d,e)}.toDF("Beverage","Branch","Day_","City","Consumed")
+
+r.registerTempTable("Stats")
+
+
+
+%sql Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from Stats where city = 'NYC' and day_ = 1 or day_ = 2 or day_ = 3 or day_ = 4 or day_ = 5 group by beverage order by total_consumed desc) t
+
+%sql Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from Stats where city = 'NYC' and day_ = 61 or day_ = 62 or day_ = 63 or day_ = 64 or day_ = 65 group by beverage order by total_consumed desc) t
+
+%sql Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from Stats where city = 'NYC' and day_ = 111 or day_ = 112 or day_ = 113 or day_ = 114 or day_ = 115 group by beverage order by total_consumed desc) t
+
+%sql Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from Stats where city = 'Dallas' and day_ = 11 or day_ = 12 or day_ = 13 or day_ = 14 or day_ = 15 group by beverage order by total_consumed desc) t
+
+%sql Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from Stats where city = 'Dallas' and day_ = 71 or day_ = 72 or day_ = 73 or day_ = 74 or day_ = 75 group by beverage order by total_consumed desc) t
+
+%sql Select t.bev as Beverage, t.total_consumed as Most_Consumed from (Select Beverage as bev, sum(consumed) as total_consumed from Stats where city = 'Dallas' and day_ = 91 or day_ = 92 or day_ = 93 or day_ = 94 or day_ = 95 group by beverage order by total_consumed desc) t
