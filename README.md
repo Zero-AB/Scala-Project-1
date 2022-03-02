@@ -9,6 +9,7 @@ This project demonstrates Hive queries using Scala, Spark, Apache Zeppelin, and 
 * IntelliJ Idea (IDE)
 * Scala (version 2.11.12)
 * Spark (version 3.1.2)
+* Hive (version 2.4.8)
 * SBT (version 1.6.2)
 * Github
 * Github Desktop
@@ -17,25 +18,24 @@ This project demonstrates Hive queries using Scala, Spark, Apache Zeppelin, and 
 
 ## Features
 List of Features
-* Created admin and guest accounts for project.
 * Created a user friendly menu to handle user inputs.
-* Query database using user input for dates and cities input by user. 
-* Query future temperature predictions using dates and cities input by user.
-* View machine learning model to show it's accuracy through menu option 7.
+* Created hive tables to query data from csv files.
+* Query database using user menu input. 
+* Showcase partitions and view effectiveness.
 * MySQL used in zeppelin to generate viusalizations of data.
 
 To do List
-* Add additional cities to the data selected.
-* Add additional years to the data.
-* Create spark streaming capability to automatically add to the database.
+* Add additional coffee data to the data selected.
+* Add hyperlinks to zeppelin graphs. 
+* Create machine learning capability to check trends in data.
 
 ## Getting Started
 
-To get started, first clone the repository to your desktop/laptop by using the http link given. Using git bash, type git clone https://github.com/Zero-AB/Project_Two.git into the command line. The project was created using IntelliJ and can be downloaded using the following link: [IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=windows) Once downloaded, start IntelliJ and use it to open the project folder and navigate to the climate object under the src folder inside the project. From there, you are able to run main and begin using the project. 
+To get started, first clone the repository to your desktop/laptop by using the http link given. Using git bash, type git clone https://github.com/Zero-AB/Project_Two.git into the command line. The project was created using IntelliJ and can be downloaded using the following link: [IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=windows) Once downloaded, start IntelliJ and use it to open the project folder and navigate to the Project_One object under the src folder inside the project. From there, you are able to run main and begin using the project. 
 
 ## Usage
 
-After running main, you may select an option from the menu that is given. Options include querying a database for highest average temperature for a given month in a given city over 25 years, average temp and CO2 emissions per year, average temperature between given dates and given city, and a machine learning model to predict future temperatures. 
+After running main, you may select an option from the menu that is given. Options include total nuber of consumers for branches, most consumed beverages for branches, and beverage availability. 
 
 ## License
 The project uses the following license: [The Unlicense](https://unlicense.org/)
