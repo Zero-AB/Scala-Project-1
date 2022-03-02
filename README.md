@@ -31,7 +31,7 @@ To do List
 
 ## Getting Started
 
-To get started, first clone the repository to your desktop/laptop by using the http link given. Using git bash, type git clone https://github.com/Zero-AB/Project_Two.git into the command line. The project was created using IntelliJ and can be downloaded using the following link: [IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=windows) Once downloaded, start IntelliJ and use it to open the project folder and navigate to the Project_One object under the src folder inside the project. From there, you are able to run main and begin using the project. 
+To get started, first clone the repository to your desktop/laptop by using the http link given. Using git bash, type git clone https://github.com/Zero-AB/Scala-Project-1.git into the command line. The project was created using IntelliJ and can be downloaded using the following link: [IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=windows) Once downloaded, start IntelliJ and use it to open the project folder and navigate to the Project_One object under the src folder inside the project. From there, you are able to run main and begin using the project. 
 
 ## Usage
 
